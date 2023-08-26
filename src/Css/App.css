@@ -1,12 +1,22 @@
 .App {
   text-align: center;
 }
-
+.card-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.container{
+  text-align: center;
+  background-color: dodgerblue;
+  font-size: 17px;
+  padding: 18px 0px;
+  color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
